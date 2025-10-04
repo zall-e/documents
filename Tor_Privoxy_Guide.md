@@ -6,12 +6,12 @@ Tor ابزاری برای ناشناس‌سازی ترافیک اینترنت ا
 ## 2. دانلود و نصب
 
 ### 2.1 دانلود Tor
-- وب‌سایت رسمی: https://www.torproject.org/download/tor/
+- وب‌سایت رسمی: [https://www.torproject.org/download/tor/](https://www.torproject.org/download/tor/)
 - دانلود نسخه Tor Expert Bundle
 - استخراج فایل ZIP در مسیر دلخواه مثلا `C:\Tor`
 
 ### 2.2 دانلود Privoxy
-- وب‌سایت رسمی: https://www.privoxy.org
+- دانلود: [https://www.privoxy.org](https://www.privoxy.org/sf-download-mirror/Win32/)
 - نصب یا استخراج نسخه ویندوز در مسیر مثلا `C:\Privoxy`
 
 ## 3. پیکربندی
