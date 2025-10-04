@@ -99,3 +99,5 @@ print(r.text)
 | default.filter پیدا نشد | فایل پیش‌فرض Privoxy وجود ندارد | مسیر را اصلاح یا فایل را اضافه کنید |
 | عدم دسترسی به logfile | ویندوز اجازه نوشتن ندارد | اجرای Privoxy با Admin یا تغییر مسیر فایل |
 | Invalid header received | تنظیمات پراکسی اشتباه در مرورگر یا سیستم | بررسی مجدد Proxy در مرورگر یا Windows |
+لینک GPT:
+https://chatgpt.com/share/68e0f260-dc18-8010-96c2-fe0373e5f9bb
