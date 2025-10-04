@@ -19,7 +19,8 @@ Tor ابزاری برای ناشناس‌سازی ترافیک اینترنت ا
 ### 3.1 فایل torrc.txt
 ```
 SocksPort 9050
-Log notice stdout
+ControlPort 9051
+CookieAuthentication 0
 ```
 
 ### 3.2 فایل config.txt برای Privoxy
@@ -30,7 +31,10 @@ logfile  C:\Privoxy\privoxy.log
 
 ## 4. اجرای Tor و Privoxy
 ```bash
-.	or.exe -f .	orrc.txt
+cd C:\Tor
+tor.exe -f torrc.txt
+
+cd "C:\Program Files (x86)\Privoxy"
 privoxy.exe config.txt
 ```
 
@@ -42,7 +46,7 @@ privoxy.exe config.txt
 
 ## 6. اتصال کل سیستم با Proxifier
 - نصب Proxifier
-- افزودن Proxy با Address `127.0.0.1` و Port `8118`
+- افزودن Proxy با Address `127.0.0.1` و Port `9050`
 - ساخت Rule برای هدایت کل ترافیک
 - فعال‌سازی **Global Mode**
 
