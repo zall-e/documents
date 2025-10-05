@@ -66,6 +66,7 @@ privoxy.exe config.txt
 - فعال‌سازی پروفایل
 
 ## 8. راه‌اندازی خودکار با Batch Script
+حتما در حالت ادمین فایل اجرا کنید.
 ### start_tor_privoxy.bat
 ```bat
 @echo off
@@ -76,11 +77,6 @@ cd /d "C:\Program Files (x86)\Privoxy"
 start "" /B privoxy.exe config.txt
 exit
 ```
-
-### اضافه کردن به Startup
-- ساخت Shortcut از Batch
-- مسیر: `shell:startup`
-- قرار دادن شورتکات
 
 ## 9. تست اتصال با Python
 ```python
