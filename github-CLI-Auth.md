@@ -33,6 +33,30 @@ Follow the prompts:
 - Select **Login with a web browser** (recommended)
 - Copy the one-time code and paste it in your browser
 
+## Initial Repository Setup
+
+If you're starting a new repository from scratch:
+
+```bash
+# Initialize Git repository
+git init
+
+# Add all files to staging
+git add .
+
+# Create initial commit
+git commit -m "Initial commit"
+
+# Rename branch to main
+git branch -M main
+
+# Add remote repository
+git remote add origin git@github.com:username/repo-name.git
+
+# Push to GitHub
+git push -u origin main
+```
+
 ## Usage
 
 Once authenticated, you can push to your repositories:
